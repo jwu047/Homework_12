@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA_Compatible" content="ie=edge">
+  <title>Web Visualization Dashboard</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="WebDashStyle.css" media="screen">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid navbar-custom">
+
+      <!--Small screen-->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+          <div class="galaxy-S5 phone-nav">
+            <a class="navbar-brand" href="index.html" id="landing-btn">Latitude</a>
+          </div>
+        </div>
+
+        <!--navbar-->
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right"navbar-right-custom>        
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="MaxTemperature.html">Max Temperature</a></li>
+              <li><a href="Humidity.html">Humidity</a></li>
+              <li><a href="Cloudiness.html">Cloudiness</a></li>
+              <li><a href="WindSpeed.html">Wind Speed</a></li>
+            </ul>
+
+            <li><a href="Comparison.html">Comparison</a></li>
+            <li><a href="Data.html">Data</a></li> 
+            <li><a href="">    </a></li> 
+          </ul>
+        </div> 
+    </div> 
+  </nav>
+
+
+  <div class="container">
+        <div class="col-sm-12">
+            <h1 class="description2-header text-center">Comparison: Latitude vs. X</h1>
+            <h3 class="description2-text text-left">Click any plot to get in-depth analysis.</h3>
+        </div>
+
+      <!--Comparison images, col-sm-6-->     
+        <div class="col-md-6">
+            <h4 class="comparison-header text-center">vs. Max Temperature</h4>
+            <a target=”_blank” href="MaxTemperature.html"><img src="Resources/assets/images/Fig1.png" class="comparison-image img-responsive"></a>
+        </div>
+
+        <div class="col-md-6">
+            <h4 class="comparison-header text-center">vs. Humidity</h4>
+            <a target=”_blank” href="Humidity.html"><img src="Resources/assets/images/Fig2.png" class="comparison-image img-responsive"></a>
+        </div>
+
+        <div class="col-sm-6">
+            <h4 class="comparison-header text-center">vs. Cloudiness</h4>
+            <a target=”_blank” href="Cloudiness.html"><img src="Resources/assets/images/Fig3.png" class="comparison-image img-responsive"></a>
+        </div>
+
+        <div class="col-sm-6">
+            <h4 class="comparison-header text-center">vs. Wind Speed</h4>
+            <a target=”_blank”href="WindSpeed.html"><img src="Resources/assets/images/Fig4.png" class="comparison-image img-responsive"></a>
+        </div>
+  </div>
+
+  <!--jQuery-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!--Bootstrap-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+
+<footer class="web-footer">
+    <div class="web-element"> Copyright Coding Bootcamp 2017</div>
+</footer>
+
+</html>

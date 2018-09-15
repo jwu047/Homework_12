@@ -1,0 +1,130 @@
+html{
+  position: realtive;
+  min-height: 100%;
+} 
+
+body{
+  margin-bottom: 100px; 
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 100px; 
+}
+
+h3 {
+  font-size: 16px;
+  margin-left: 50px;
+
+}
+
+h4 {
+  font-size: 1px;
+  margin-left: 100px;
+
+}
+
+.thubnail {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+  /* Navigation styles */ 
+
+  .navbar-custom {
+    background-color: #fff;
+  }
+
+  #landing-btn {
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 90px;
+
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+.navbar-right-custom {
+  padding-top: 5px;
+  padding-right: 20px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+/* Visualization pages */
+
+.description-header {
+  margin-bottom: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.description-hr {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+}
+
+
+/*Media query*/
+@media only screen and (max-width: 767px) {
+  .description-content{
+    padding: 0;
+    margin-top: 0;
+  }
+} 
+
+.description-content {
+  padding: 10px; 
+  margin-top: 20px;
+}
+
+.description-text {
+  padding-bottom: 20px
+}
+
+#description-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+
+/* Paragraph text*/
+.description-content > p {
+  padding-top: 20px;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 20px
+ }
+
+
+
+/* Comparison page */
+
+.description2-header {
+  margin-bottom: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.description2-content {
+  padding: 10px; 
+  margin-top: 20px;
+}
+
+.comparison-header {
+  margin-bottom: 10px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 200px;
+} */
